@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(252,140,70);
+background: radial-gradient(circle, rgba(252,140,70,1) 16%, rgba(252,70,107,1) 100%);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+height: 100vh;
+color:honeydew;
+display: flex;
+justify-content: center;
+
+
+}
+.contenedor{
+    max-width: 80%;
+    width: 400px;
+    height: 600%;
+    margin: 0 auto;
+    padding: 40px;
+    padding-block-end: 10px;
+    background-color: lightcoral;
+    border-radius: 35px;
+    height: 80%;
+    margin-top: 50px;
+}
+.encabezado{
+    padding: 10px 0 5px 0;
+    text-align: center;
+   color: #000;
+     
+}
+.agregar{
+    background-color: darksalmon;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap:70px;
+}
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    padding-left: 10px;
+    
+}
+
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color:black;
+}
+.agregar i{
+    font-size: 30px;
+    color:black;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.tareas h2{
+    margin-bottom: 20px;
+    color:blanchedalmond;
+    text-align: center;
+   
+}
+.tareas{
+    font-size: 20px;
+}
+
+.tareas li{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    padding: 10px;
+    color:black;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas p{
+    font-weight: 200;
+}
+.tareas i:hover{
+    color:black;
+    cursor: pointer;
+
+}
+.tachado{
+    text-decoration-line: line-through;
+    color: black;
+}
